@@ -1,0 +1,39 @@
+{
+  "image": "https://images.pexels.com/photos/14146745/pexels-photo-14146745.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "title": "Intro to CSS",
+  "languages": ["CSS", "Beginner"],
+  "description": "Learn the basics of CSS (Cascading Style Sheets) to add style and design to your HTML documents.",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Step 1: Understanding CSS",
+      "description": "CSS is a style sheet language used for describing the presentation of a document written in HTML. It allows you to style HTML elements to make your web pages visually appealing.",
+      "codeSnippet": ""
+    },
+    {
+      "stepNumber": 2,
+      "title": "Step 2: Setting Up",
+      "description": "Similar to HTML, CSS can be written in any text editor. Create a new file and save it with a .css extension. You can link this CSS file to your HTML document using the <link> tag in the head section.",
+      "codeSnippet": "<link rel='stylesheet' type='text/css' href='styles.css'>"
+    },
+    {
+      "stepNumber": 3,
+      "title": "Step 3: Selectors",
+      "description": "Selectors are patterns used to select the elements you want to style. They can be HTML tags, classes, IDs, or attributes. Common selectors include element selectors, class selectors, ID selectors, and attribute selectors.",
+      "codeSnippet": "/* Element Selector */\nh1 {\n    color: blue;\n}\n\n/* Class Selector */\n.my-class {\n    font-size: 16px;\n}\n\n/* ID Selector */\n#my-id {\n    background-color: yellow;\n}"
+    },
+    {
+      "stepNumber": 4,
+      "title": "Step 4: Properties and Values",
+      "description": "CSS properties define the visual appearance of HTML elements, and values specify the settings for those properties. For example, the color property sets the text color, and its value can be a named color or a hexadecimal value.",
+      "codeSnippet": "h1 {\n    color: blue;\n    font-size: 24px;\n}"
+    },
+    {
+      "stepNumber": 5,
+      "title": "Step 5: Applying Styles",
+      "description": "Once you've defined your CSS rules, they will be applied to the corresponding HTML elements, altering their appearance according to your specifications.",
+      "codeSnippet": ""
+    }
+  ]
+}
+

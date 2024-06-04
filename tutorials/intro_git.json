@@ -1,0 +1,39 @@
+{
+  "image": "https://cdn.pixabay.com/photo/2016/05/14/01/25/fractal-1391295_960_720.jpg",
+  "title": "Intro to Git",
+  "languages": ["Bash", "Beginner"],
+  "description": "Introduction to what Git is and how to use it.",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Step 1: Understanding Git",
+      "description": "Git is a version control system used to track changes in files and collaborate with others on software development projects. It allows multiple developers to work on the same project simultaneously without interfering with each other's work.",
+      "codeSnippet": ""
+    },
+    {
+      "stepNumber": 2,
+      "title": "Step 2: Setting Up Git",
+      "description": "To start using Git, you need to install it on your computer. You can download Git from the official website (https://git-scm.com/downloads) and follow the installation instructions for your operating system.",
+      "codeSnippet": ""
+    },
+    {
+      "stepNumber": 3,
+      "title": "Step 3: Initializing a Git Repository",
+      "description": "Once Git is installed, you can initialize a new Git repository for your project. Open a terminal window and navigate to your project directory. Then, use the 'git init' command to initialize Git in that directory.",
+      "codeSnippet": "cd path/to/your/project\n\n# Initialize Git repository\ngit init"
+    },
+    {
+      "stepNumber": 4,
+      "title": "Step 4: Adding and Committing Changes",
+      "description": "After making changes to your project files, you can add them to the staging area using the 'git add' command. Once your changes are staged, you can commit them to the repository using the 'git commit' command.",
+      "codeSnippet": "# Add changes to staging area\n# Replace 'file' with the name of the file(s) you want to add\n\n# Add a specific file\ngit add file\n\n# Add all files\ngit add .\n\n# Commit changes\n# Replace 'message' with a brief description of your changes\ngit commit -m 'message'"
+    },
+    {
+      "stepNumber": 5,
+      "title": "Step 5: Pushing Changes to a Remote Repository",
+      "description": "If you're working on a project with others, you can push your changes to a remote repository like GitHub or GitLab. This allows your team members to see your changes and collaborate on the project.",
+      "codeSnippet": "# Add a remote repository\n# Replace 'url' with the URL of your remote repository\ngit remote add origin url\n\n# Push changes to the remote repository\n# Replace 'branch' with the name of the branch you want to push\ngit push -u origin branch"
+    }
+  ]
+}
+

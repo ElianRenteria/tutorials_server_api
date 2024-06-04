@@ -1,0 +1,21 @@
+{
+    "image":"",
+    "title": "",
+    "languages": ["Python", "Beginner"],
+    "description": "",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Step 1: Title",
+        "description": "Description of step 1.",
+        "codeSnippet": "Code snippet for step 1."
+      },
+      {
+        "stepNumber": 2,
+        "title": "Step 2: Title",
+        "description": "Description of step 2.",
+        "codeSnippet": "Code snippet for step 2."
+      }
+    ]
+  }
+

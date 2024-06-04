@@ -1,0 +1,39 @@
+{
+  "image": "https://images.pexels.com/photos/14032212/pexels-photo-14032212.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "title": "Static Webpage",
+  "languages": ["JavaScript", "HTML", "CSS", "Web"],
+  "description": "Learn how to create a basic static webpage using HTML, CSS, and a little bit of JavaScript.",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Step 1: Setting Up",
+      "description": "Create a new folder for your project. Inside this folder, create three files: index.html, styles.css, and script.js. These files will contain the structure, styling, and functionality of our webpage, respectively.",
+      "codeSnippet": ""
+    },
+    {
+      "stepNumber": 2,
+      "title": "Step 2: HTML Structure",
+      "description": "Open the index.html file and write the basic structure of an HTML document. Include tags for the doctype, html, head, title, and body.",
+      "codeSnippet": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Static Webpage</title>\n    <link rel='stylesheet' type='text/css' href='styles.css'>\n</head>\n<body>\n    <!-- Your content here -->\n    <script src='script.js'></script>\n</body>\n</html>"
+    },
+    {
+      "stepNumber": 3,
+      "title": "Step 3: Adding Content",
+      "description": "Inside the body tag of your HTML file, add some content for your webpage. This could include headings, paragraphs, images, or anything else you want to display.",
+      "codeSnippet": "<h1>Welcome to My Static Webpage!</h1>\n<p>This is a basic introduction to web development using HTML, CSS, and JavaScript.</p>"
+    },
+    {
+      "stepNumber": 4,
+      "title": "Step 4: Styling with CSS",
+      "description": "Open the styles.css file and add styles to make your webpage visually appealing. You can change colors, fonts, margins, and more.",
+      "codeSnippet": "body {\n    font-family: Arial, sans-serif;\n    background-color: #f0f0f0;\n    text-align: center;\n}\nh1 {\n    color: #333333;\n}\np {\n    color: #666666;\n}"
+    },
+    {
+      "stepNumber": 5,
+      "title": "Step 5: Adding Interactivity",
+      "description": "If you want to add some interactivity to your webpage, open the script.js file and write JavaScript code. This could include event listeners, animations, or other interactive features.",
+      "codeSnippet": "// Example: Change text color when clicked\nvar paragraph = document.querySelector('p');\nparagraph.addEventListener('click', function() {\n    paragraph.style.color = 'blue';\n});"
+    }
+  ]
+}
+

@@ -1,0 +1,39 @@
+{
+  "image": "https://images.pexels.com/photos/2928428/pexels-photo-2928428.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "title": "Text RPG",
+  "languages": ["Python", "Intermediate","Beginner"],
+  "description": "Create an RPG game using print and console instead of graphics.",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Step 1: Planning the Game",
+      "description": "Before starting to code, it's important to plan out your game. Think about the story, characters, settings, and gameplay mechanics you want to include. Create a rough outline or storyboard to guide your development process.",
+      "codeSnippet": ""
+    },
+    {
+      "stepNumber": 2,
+      "title": "Step 2: Setting Up the Game",
+      "description": "Create a new Python file for your game. You can start by defining the main function or class that will run the game. Import any necessary modules and set up the initial game state.",
+      "codeSnippet": "# Example: Setting up the main function\n\ndef main():\n    print('Welcome to Text RPG!')\n\nif __name__ == '__main__':\n    main()"
+    },
+    {
+      "stepNumber": 3,
+      "title": "Step 3: Implementing Gameplay",
+      "description": "Write code to implement the core gameplay mechanics of your RPG. This could include features like character creation, exploring locations, battling enemies, completing quests, and leveling up.",
+      "codeSnippet": "# Example: Implementing character creation\n\ndef create_character():\n    name = input('Enter your character name: ')\n    character_class = input('Choose your class (Warrior, Mage, Ranger): ')\n    # Additional code for character creation...\n    return name, character_class\n\n# Example: Calling the create_character function\ncharacter_name, character_class = create_character()"
+    },
+    {
+      "stepNumber": 4,
+      "title": "Step 4: Testing and Debugging",
+      "description": "Test your game thoroughly to identify any bugs or issues. Use print statements and console output to track the flow of your game and debug problems as they arise. Make sure to address any issues before moving on to the next step.",
+      "codeSnippet": "# Example: Debugging a function\n\ndef attack(enemy):\n    if enemy.health > 0:\n        # Code for attacking the enemy...\n        pass\n    else:\n        print('Enemy is already defeated!')\n\n# Example: Testing the attack function\nenemy = Enemy()\nattack(enemy)"
+    },
+    {
+      "stepNumber": 5,
+      "title": "Step 5: Adding Polish",
+      "description": "Once the core gameplay is working smoothly, focus on adding polish to your game. This could include improving the user interface, adding sound effects, implementing animations, and refining the overall player experience.",
+      "codeSnippet": ""
+    }
+  ]
+}
+

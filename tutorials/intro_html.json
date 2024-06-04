@@ -1,0 +1,39 @@
+{
+  "image": "https://images.pexels.com/photos/17296734/pexels-photo-17296734/free-photo-of-fractals-on-building.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "title": "Intro to HTML",
+  "languages": ["HTML", "Beginner"],
+  "description": "Get started with HTML, the language used to create web pages.",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Step 1: Understanding HTML",
+      "description": "HTML stands for HyperText Markup Language. It's the standard language for creating web pages. HTML uses a system of tags to structure content on the web page.",
+      "codeSnippet": ""
+    },
+    {
+      "stepNumber": 2,
+      "title": "Step 2: Setting Up",
+      "description": "To get started with HTML, all you need is a text editor like Notepad (on Windows) or TextEdit (on Mac). Create a new file and save it with a .html extension.",
+      "codeSnippet": ""
+    },
+    {
+      "stepNumber": 3,
+      "title": "Step 3: Creating the Structure",
+      "description": "Every HTML document starts with a doctype declaration, followed by an html element that contains head and body elements. The head section typically contains metadata and links to external resources, while the body section contains the actual content of the webpage.",
+      "codeSnippet": "<!DOCTYPE html>\n<html>\n<head>\n    <title>My First Web Page</title>\n</head>\n<body>\n    <!-- Your content goes here -->\n</body>\n</html>"
+    },
+    {
+      "stepNumber": 4,
+      "title": "Step 4: Adding Content",
+      "description": "Inside the body element, you can add various types of content such as text, images, links, and more using HTML tags.",
+      "codeSnippet": "<h1>Hello, World!</h1>\n<p>This is my first web page.</p>"
+    },
+    {
+      "stepNumber": 5,
+      "title": "Step 5: Understanding Tags",
+      "description": "HTML tags are used to define different elements on a webpage. Some common tags include <h1> for headings, <p> for paragraphs, <a> for links, <img> for images, and <ul>/<li> for lists.",
+      "codeSnippet": ""
+    }
+  ]
+}
+

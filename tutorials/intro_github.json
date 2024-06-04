@@ -1,0 +1,39 @@
+{
+  "image": "https://images.pexels.com/photos/19966840/pexels-photo-19966840/free-photo-of-a-ceiling-with-a-dome-and-arches-in-a-building.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "title": "Intro to GitHub",
+  "languages": ["Bash", "Beginner"],
+  "description": "Introduction to how to use GitHub.",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Step 1: Understanding GitHub",
+      "description": "GitHub is a platform for hosting and collaborating on projects using the Git version control system. It provides features like code hosting, pull requests, issue tracking, and more, making it a valuable tool for software development.",
+      "codeSnippet": ""
+    },
+    {
+      "stepNumber": 2,
+      "title": "Step 2: Creating a GitHub Account",
+      "description": "Before you can start using GitHub, you need to create an account. Visit the GitHub website (https://github.com/) and sign up for a free account.",
+      "codeSnippet": ""
+    },
+    {
+      "stepNumber": 3,
+      "title": "Step 3: Creating a Repository",
+      "description": "Once you have an account, you can create a new repository to store your project files. Click on the 'New' button in the top-right corner of the GitHub website, fill in the repository name and other details, and click 'Create repository'.",
+      "codeSnippet": ""
+    },
+    {
+      "stepNumber": 4,
+      "title": "Step 4: Cloning a Repository",
+      "description": "To work on a project hosted on GitHub, you need to clone the repository to your local machine. Open a terminal window and use the 'git clone' command followed by the repository URL to clone the repository.",
+      "codeSnippet": "# Clone a repository\n# Replace 'url' with the URL of the repository you want to clone\ngit clone url"
+    },
+    {
+      "stepNumber": 5,
+      "title": "Step 5: Making Changes and Pushing to GitHub",
+      "description": "After making changes to your local files, you can push them to GitHub using the 'git add', 'git commit', and 'git push' commands. This updates the files in your GitHub repository.",
+      "codeSnippet": "# Add changes to staging area\n# Replace 'file' with the name of the file(s) you want to add\ngit add file\n\n# Commit changes\n# Replace 'message' with a brief description of your changes\ngit commit -m 'message'\n\n# Push changes to GitHub\n# Replace 'branch' with the name of the branch you want to push\ngit push origin branch"
+    }
+  ]
+}
+

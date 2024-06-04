@@ -1,0 +1,39 @@
+{
+  "image": "https://images.pexels.com/photos/12564450/pexels-photo-12564450.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "title": "Javascript I",
+  "languages": ["Javascript", "Beginner"],
+  "description": "Introduction to JavaScript programming language.",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Step 1: Understanding JavaScript",
+      "description": "JavaScript is a versatile programming language commonly used for web development. It enables interactive and dynamic features on web pages, such as animations, form validation, and interactivity.",
+      "codeSnippet": ""
+    },
+    {
+      "stepNumber": 2,
+      "title": "Step 2: Setting Up",
+      "description": "To write JavaScript code, you can use any text editor like Visual Studio Code, Sublime Text, or Notepad++. Create a new file with a .js extension to write your JavaScript code.",
+      "codeSnippet": ""
+    },
+    {
+      "stepNumber": 3,
+      "title": "Step 3: Basics of JavaScript",
+      "description": "JavaScript shares similarities with Python in terms of basic concepts such as variables, data types, and control flow statements (like loops and conditionals). However, JavaScript has its own syntax and features.",
+      "codeSnippet": "// Example: Variables and Data Types\nvar name = 'John';\nvar age = 25;\n\n// Example: Loops\nfor (var i = 0; i < 5; i++) {\n    console.log('Hello, world!');\n}\n\n// Example: Conditionals\nvar x = 10;\nif (x > 5) {\n    console.log('x is greater than 5');\n} else {\n    console.log('x is less than or equal to 5');\n}"
+    },
+    {
+      "stepNumber": 4,
+      "title": "Step 4: Functions",
+      "description": "Functions are a fundamental concept in JavaScript. They allow you to encapsulate reusable code blocks and execute them at any point in your program.",
+      "codeSnippet": "// Example: Defining a function\nfunction greet(name) {\n    console.log('Hello, ' + name + '!');\n}\n\n// Example: Calling a function\ngreet('Alice');"
+    },
+    {
+      "stepNumber": 5,
+      "title": "Step 5: DOM Manipulation",
+      "description": "One of the most powerful features of JavaScript is its ability to manipulate the Document Object Model (DOM) of a web page. This allows you to dynamically change the content, structure, and style of a webpage.",
+      "codeSnippet": "// Example: Changing text content of an element\nvar element = document.getElementById('myElement');\nelement.textContent = 'New text';\n\n// Example: Adding a new element\nvar newElement = document.createElement('div');\nnewElement.textContent = 'New element';\ndocument.body.appendChild(newElement);"
+    }
+  ]
+}
+

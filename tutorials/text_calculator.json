@@ -1,0 +1,33 @@
+{
+  "image": "https://images.pexels.com/photos/14314637/pexels-photo-14314637.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "title": "Text Calculator",
+  "languages": ["Python", "Beginner"],
+  "description": "Create a simple calculator using only text input and output in the console.",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Step 1: Introduction",
+      "description": "Let's create a basic calculator that can add, subtract, multiply, and divide numbers. We'll take input from the user and display the result in the console.",
+      "codeSnippet": ""
+    },
+    {
+      "stepNumber": 2,
+      "title": "Step 2: User Input",
+      "description": "Ask the user to enter two numbers and the operation they want to perform (addition, subtraction, multiplication, or division).",
+      "codeSnippet": "num1 = float(input('Enter the first number: '))\nnum2 = float(input('Enter the second number: '))\noperation = input('Enter the operation (+, -, *, /): ')"
+    },
+    {
+      "stepNumber": 3,
+      "title": "Step 3: Perform Calculation",
+      "description": "Based on the user's input, perform the corresponding calculation.",
+      "codeSnippet": "if operation == '+':\n    result = num1 + num2\nelif operation == '-':\n    result = num1 - num2\nelif operation == '*':\n    result = num1 * num2\nelif operation == '/':\n    if num2 != 0:\n        result = num1 / num2\n    else:\n        print('Error: Division by zero!')\n        result = None"
+    },
+    {
+      "stepNumber": 4,
+      "title": "Step 4: Display Result",
+      "description": "Print the result of the calculation to the console.",
+      "codeSnippet": "if result is not None:\n    print('Result:', result)"
+    }
+  ]
+}
+

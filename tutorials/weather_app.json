@@ -1,0 +1,20 @@
+{
+    "image": "https://images.pexels.com/photos/544947/pexels-photo-544947.jpeg?auto=compress&cs=tinysrgb&w=600",	
+    "title": "Weather App",
+    "languages": ["Python", "Intermediate", "API"],
+    "description": "Desktop weather application using tkinter and requets modules",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Step 1: Title",
+        "description": "Description of step 1.",
+        "codeSnippet": "Code snippet for step 1."
+      },
+      {
+        "stepNumber": 2,
+        "title": "Step 2: Title",
+        "description": "Description of step 2.",
+        "codeSnippet": "Code snippet for step 2."
+      }
+    ]
+  }

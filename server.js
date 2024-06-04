@@ -3,11 +3,42 @@ const cors = require('cors');
 const fs = require('fs');
 const https = require('https');
 const path = require('path');
+const { Ollama } = require('ollama-node');
+const bodyParser = require('body-parser');
+
+
 
 const app = express();
+const ollama = new Ollama();
+
 
 app.use(cors());
+app.use(bodyParser.json());
+
 const tutorialsDirectory = path.join(__dirname, 'tutorials');
+
+
+
+// Endpoint to handle chat
+app.post('/chat', async (req, res) => {
+    try {
+	const { message } = req.body;
+        // Set Ollama model
+        await ollama.setModel("tinyllama");
+
+        // Generate response using Ollama
+        const { output } = await ollama.generate(message);
+
+        // Send response back to client
+        res.json({ 'response': output });
+    } catch (error) {
+        console.error('Error:', error);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+
+});
+
+
 
 app.get('/tutorials', (req, res) => {
   fs.readdir(tutorialsDirectory, (err, files) => {
@@ -28,13 +59,13 @@ app.get('/tutorials', (req, res) => {
   });
 });
 
+var options={
+	key:fs.readFileSync('./SSL/private.key'),
+	cert:fs.readFileSync('./SSL/certificate.crt'),
+	ca:fs.readFileSync('./SSL/bundle.ca-bundle')
+};
 
-const privateKey = fs.readFileSync('./SSL/privatekey.pem', 'utf8');
-const certificate = fs.readFileSync('./SSL/certificate.pem', 'utf8');
-const credentials = { key: privateKey, cert: certificate };
-
-
-const httpsServer = https.createServer(credentials, app);
+const httpsServer = https.createServer(options, app);
 
 
 httpsServer.listen(8066, () => {

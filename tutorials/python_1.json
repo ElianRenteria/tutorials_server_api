@@ -1,0 +1,45 @@
+{
+  "image": "https://images.pexels.com/photos/14032254/pexels-photo-14032254.jpeg?auto=compress&cs=tinysrgb&w=600",
+  "title": "Python I",
+  "languages": ["Python", "Beginner"],
+  "description": "Introduction to Python",
+  "steps": [
+    {
+      "stepNumber": 1,
+      "title": "Step 1: What is Python?",
+      "description": "Python is a programming language. It's like a special set of instructions that we can give to the computer to make it do things for us.",
+      "codeSnippet": ""
+    },
+    {
+      "stepNumber": 2,
+      "title": "Step 2: Print Statement",
+      "description": "The print statement is used to display a message on the screen. It helps us communicate with the computer and see what it's doing.",
+      "codeSnippet": "print('Hello, world!')"
+    },
+    {
+      "stepNumber": 3,
+      "title": "Step 3: Variables",
+      "description": "Variables are like containers where we can store information. We give each container a name, and then we can use that name to refer to the information inside.",
+      "codeSnippet": "message = 'Hello, world!'\nprint(message)"
+    },
+    {
+      "stepNumber": 4,
+      "title": "Step 4: Data Types",
+      "description": "Data types tell us what type of information we're working with. For example, text is a different type of data than numbers.",
+      "codeSnippet": "age = 10\nprint(age)\n\nname = 'Alice'\nprint(name)"
+    },
+    {
+      "stepNumber": 5,
+      "title": "Step 5: Loops",
+      "description": "Loops help us repeat a set of instructions multiple times. It's like telling the computer to do something over and over again.",
+      "codeSnippet": "for i in range(5):\n    print('Hello, world!')"
+    },
+    {
+      "stepNumber": 6,
+      "title": "Step 6: Conditionals",
+      "description": "Conditionals help us make decisions in our code. We can tell the computer to do one thing if a condition is true, and another thing if it's false.",
+      "codeSnippet": "age = 10\nif age >= 18:\n    print('You are an adult.')\nelse:\n    print('You are a kid.')"
+    }
+  ]
+}
+
